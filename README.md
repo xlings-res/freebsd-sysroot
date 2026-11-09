@@ -1,5 +1,9 @@
 # freebsd-sysroot
 
+**Superseded** by one package per identity: `xim:x86_64-freebsd-sysroot` and
+`xim:aarch64-freebsd-sysroot`. The release here carries an earlier manifest form that
+no mcpp release reads; it is kept unchanged.
+
 Release storage for `xim:freebsd-sysroot`: the FreeBSD base system a program is
 compiled and linked against -- `usr/include`, the shared libraries, the dynamic
 loader, crt objects and the static archives of the C library, the C++ run-time
